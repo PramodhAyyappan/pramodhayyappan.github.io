@@ -1547,6 +1547,9 @@ img.testimonial_emojis {
 .single_experience:hover .experience_content{
     background-color:#2d6cdf
 }
+.single_experience:hover .experience_content h5{
+    color:#fff
+}
 .single_experience:hover .experience_content p{
     color:#fff
 }
