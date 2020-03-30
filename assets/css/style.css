@@ -1723,4 +1723,102 @@ img.testimonial_emojis {
         font-size:15px
     }
 }
- 
+.single-works {
+	border: 2px solid rgba(100, 111, 135, 0.2);
+	border-radius: 5px;
+	padding: 30px 30px 28px;
+	-webkit-transition: all 0.3s ease-out 0s;
+	-moz-transition: all 0.3s ease-out 0s;
+	-ms-transition: all 0.3s ease-out 0s;
+	-o-transition: all 0.3s ease-out 0s;
+	transition: all 0.3s ease-out 0s;
+}
+@media (max-width: 767px) {
+	.single-works {
+		padding: 20px 20px 28px;
+	}
+}
+.single-works .works-icon {
+	width: 95px;
+	height: 95px;
+	border-radius: 50%;
+	/* background-color: #c8e6f5; */
+}
+.single-works .works-content .works-title {
+	margin-top: 30px;
+}
+.single-works .works-content .works-title a {
+	font-size: 22px;
+	font-weight: 600;
+	color: #293651;
+	-webkit-transition: all 0.3s ease-out 0s;
+	-moz-transition: all 0.3s ease-out 0s;
+	-ms-transition: all 0.3s ease-out 0s;
+	-o-transition: all 0.3s ease-out 0s;
+	transition: all 0.3s ease-out 0s;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.single-works .works-content .works-title a {
+		font-size: 20px;
+	}
+}
+@media (max-width: 767px) {
+	.single-works .works-content .works-title a {
+		font-size: 20px;
+	}
+}
+.single-works .works-content .works-title a:hover {
+	color: #2d6cdf;
+}
+.single-works .works-content .text {
+	margin-top: 25px;
+}
+.single-works .works-content .more {
+	font-size: 16px;
+	font-weight: 600;
+	color: #646F87;
+	margin-top: 35px;
+	-webkit-transition: all 0.3s ease-out 0s;
+	-moz-transition: all 0.3s ease-out 0s;
+	-ms-transition: all 0.3s ease-out 0s;
+	-o-transition: all 0.3s ease-out 0s;
+	transition: all 0.3s ease-out 0s;
+}
+.single-works .works-content .more .line-1 {
+	width: 0px;
+	height: 2px;
+	background-color: #2d6cdf;
+	-webkit-transition: all 0.3s ease-out 0s;
+	-moz-transition: all 0.3s ease-out 0s;
+	-ms-transition: all 0.3s ease-out 0s;
+	-o-transition: all 0.3s ease-out 0s;
+	transition: all 0.3s ease-out 0s;
+	margin-bottom: 5px;
+}
+.single-works .works-content .more .line-2 {
+	width: 20px;
+	height: 2px;
+	background-color: #646F87;
+	margin-right: 10px;
+	-webkit-transition: all 0.3s ease-out 0s;
+	-moz-transition: all 0.3s ease-out 0s;
+	-ms-transition: all 0.3s ease-out 0s;
+	-o-transition: all 0.3s ease-out 0s;
+	transition: all 0.3s ease-out 0s;
+	margin-left: 10px;
+	margin-bottom: 5px;
+}
+.single-works .works-content .more:hover {
+	color: #2d6cdf;
+}
+.single-works .works-content .more:hover .line-1 {
+	width: 20px;
+	margin-right: 10px;
+}
+.single-works .works-content .more:hover .line-2 {
+	width: 0px;
+	margin-left: 10px;
+}
+.single-works:hover {
+	border-color: #2d6cdf;
+}
