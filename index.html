@@ -618,6 +618,29 @@
                                 <span>03</span>
                             </div>
                             <div class="experience_content order-first">
+                                <h6>AT&T USM SRE</h6>
+                                <p>
+                                    - Implemented Micrometer(a Java application monitoring tool) to collect application metrics and ship them immediately over UDP to Dogstatsd, then the agent will push metrics to datadog<br>
+                                    - Improved Rerun command performance and better tracking of requests to download debug logs(system logs and application logs) from various servers<br>
+                                    - Integrated datadog event notifications to Rerun module to notify on command failures<br>
+                                    - Improved application logging by setting up correct log levels in the entire codebase for better diagnosis and reducing the noise
+                                </p>
+                                <br>
+                                <h6>Flux7 Platforms</h6>
+                                <p>
+                                    - Cloud Custodian monitors and automatically runs policies against Cloud Platforms. It also supports various notification endpoints like slack, datadog, etc but doesn’t support MS Teams<br>
+                                    - Integrated Teams notification with Cloud Custodian policies by using generic webhook action to send customized payload - utilizing JMESPath queries<br>
+                                    - Integrated Teams notification with our in house automated test suite
+                                </p>
+                                <br>
+                                <h6>Medifast</h6>
+                                <p>
+                                    - Design and Implemented AWS Database Migration Service for migrating 4 TB of data from source to destination endpoint<br>
+                                    - Implemented preliminary checks on MySQL 5.7 server to ensure its eligibility for upgrading to the latest 8.0 version<br>
+                                    - Developed a reusable Terraform module for deploying AWS DMS service with specific configuration<br>
+                                    - Gained knowledge on optimization and performance metrics like CPU usage, Memory handling, Creating migration tasks based on a LOB data table, Analysing DMS control table, etc
+                                </p>
+                                <br>
                                 <h6>CBRE</h6>
                                 <p>
                                     - Created Architecture diagrams for app patterns as well as infrastructure<br>
@@ -627,7 +650,7 @@
                                     - Worked on Pre-commit hooks to identify simple issues(lint, terraform fmt, terraform validate, etc.) before code submission
                                 </p>
                                 <br>
-                                <h6>Platforms</h6>
+                                <h6>Flux7 Platforms</h6>
                                 <p>
                                     - Created a serverless framework for automated tests on PR/Push events<br>
                                     - Created a serverless framework for backing up Github repos to CodeCommit<br>
